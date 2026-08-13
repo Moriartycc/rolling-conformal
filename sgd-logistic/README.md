@@ -1,6 +1,6 @@
 # SGD for multiclass logistic regression
 
-This experiment reproduces Figure 2 of the paper. It uses a five-class
+This experiment reproduces Figure 3 of the paper. It uses a five-class
 softmax model with `X_i ~ N(0,I_d)` and oracle coefficient vectors
 
 ```text
@@ -62,4 +62,3 @@ The `output` folder contains only figures:
 - `fig2-4.{png,pdf}`: coverage paths, running-margin score.
 - `fig2-5.{png,pdf}`: fixed-feature inclusion paths, cross-entropy score.
 - `fig2-6.{png,pdf}`: fixed-feature inclusion paths, running-margin score.
-

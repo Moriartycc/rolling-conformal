@@ -5,11 +5,12 @@ in Sequential Training**.
 
 Authors: Chen Cheng, Ruiting Liang, and Rina Foygel Barber.
 
-The repository contains the three experiments reported in the paper:
+The repository contains the four experiments reported in the paper:
 
 1. `linear-regression`: minimum-norm OLS along a growing data stream.
-2. `sgd-logistic`: online SGD for five-class logistic regression.
-3. `one-pass-mnist`: one-pass training of a LeNet-style network on MNIST.
+2. `linear-regression-split`: rolling conformal versus split conformal for OLS.
+3. `sgd-logistic`: online SGD for five-class logistic regression.
+4. `one-pass-mnist`: one-pass training of a LeNet-style network on MNIST.
 
 Each folder is self-contained and has its own requirements and documentation.
 The default command reproduces the corresponding paper configuration and
@@ -31,9 +32,12 @@ installation.
 
 ## Figure map
 
-| Experiment | Paper figures |
-| --- | --- |
-| Linear regression | `fig1-1` through `fig1-3` |
-| Logistic SGD | `fig2-1` through `fig2-6` |
-| One-pass MNIST | `fig3-1` and `fig3-2` |
+The output filenames match the figure asset names used in the Overleaf
+project.
 
+| Folder | Paper figure | Output files |
+| --- | --- | --- |
+| `linear-regression` | Figure 1 | `fig1-1` through `fig1-3` |
+| `linear-regression-split` | Figure 2 | `fig4-1` and `fig4-2` |
+| `sgd-logistic` | Figure 3 | `fig2-1` through `fig2-6` |
+| `one-pass-mnist` | Figure 4 | `fig3-1` and `fig3-2` |

@@ -1,6 +1,6 @@
 # One-pass training on MNIST
 
-This experiment reproduces Figure 3 of the paper. A four-layer LeNet-style
+This experiment reproduces Figure 4 of the paper. A four-layer LeNet-style
 convolutional network with 54,314 trainable parameters processes each MNIST
 training image exactly once. Before the batch-size-one SGD update at iteration
 `i`, the code records the training cross-entropy score and evaluates the same
